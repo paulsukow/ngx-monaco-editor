@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -133,6 +136,15 @@
             "main": "projects/editor/src/test.ts",
             "tsConfig": "projects/editor/tsconfig.spec.json",
             "karmaConfig": "projects/editor/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/editor/**/*.ts",
+              "projects/editor/**/*.html"
+            ]
           }
         }
       }

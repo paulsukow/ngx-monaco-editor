@@ -1,3 +1,5 @@
+A fork from https://github.com/atularen/ngx-monaco-editor to support Angular 13
+
 # Monaco Editor Component for Angular 2 and above.
 
  - Angular <= 4: v3.x.x
@@ -8,6 +10,7 @@
  - Angular 9: v9.x.x
  - Angular 10: v10.x.x 
  - Angular 12: v12.x.x
+ - Angular 13: v13.x.x
 
 Using this Module you can utilize the Monaco Editor as an Angular Component. Feel free to contribute, raise feature requests and make it better.
 
